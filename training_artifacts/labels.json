@@ -1,0 +1,26 @@
+{
+  "labels": [
+    "Clean",
+    "Good Morning",
+    "Good afternoon",
+    "Hello",
+    "Key",
+    "Knife",
+    "Maybe",
+    "Pour",
+    "Switch",
+    "Thank you"
+  ],
+  "label_to_id": {
+    "Clean": 0,
+    "Good Morning": 1,
+    "Good afternoon": 2,
+    "Hello": 3,
+    "Key": 4,
+    "Knife": 5,
+    "Maybe": 6,
+    "Pour": 7,
+    "Switch": 8,
+    "Thank you": 9
+  }
+}
