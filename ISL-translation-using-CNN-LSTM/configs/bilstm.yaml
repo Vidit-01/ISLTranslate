@@ -1,0 +1,27 @@
+model: bilstm
+input_dim: 543
+hidden: 256
+num_layers: 2
+dropout: 0.3
+num_classes: 80
+
+train:
+  epochs: 80
+  batch_size: 32
+  lr: 3e-4
+  weight_decay: 1e-4
+  label_smoothing: 0.1
+  grad_clip: 1.0
+  scheduler: cosine   # cosine | step
+  warmup_epochs: 5
+
+data:
+  npy_dir: /content/drive/MyDrive/isl_project/data/keypoints/
+  splits_dir: /content/drive/MyDrive/isl_project/data/splits/
+  target_len: 64
+  augment_train: true
+
+checkpoint:
+  dir: /content/drive/MyDrive/isl_project/checkpoints/bilstm/
+  save_every: 10
+  save_best: true

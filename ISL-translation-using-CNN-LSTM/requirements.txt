@@ -1,0 +1,8 @@
+mediapipe==0.10.21
+opencv-python-headless==4.11.0.86
+scipy==1.13.0
+pyyaml>=6.0
+tqdm>=4.65.0
+scikit-learn>=1.3.0
+seaborn>=0.12.0
+sacrebleu>=2.3.0          # SLT only
